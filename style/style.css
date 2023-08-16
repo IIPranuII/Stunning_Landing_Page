@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.stunning-logo {
+    width: 120px;
+    margin-left: 80px;
+}
+
+.menu {
+    margin: 0px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #9896a5;
+}
+
+.account-button {
+    margin-right: 80px;
+    padding: 20px 30px;
+    border-width: 0px;
+    border-radius: 20px;
+    color: #A389CC;
+    background-color: #FFD8DB;
+    font-size: 13px;
+}
+
+.account-button:hover {
+    cursor: pointer;
+}
+
+.menu:hover {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #8071D0;
+}
+
+.body-of-page {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0px;
+}
+
+.text-section {
+    width: 40%;
+    padding-left: 170px;
+    margin-top: 0px;
+}
+
+.stunning-workplace {
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline;
+}
+
+.icon {
+    color: #8071D0;
+}
+
+.paragraph {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #6e6c75;
+}
+
+.new-account {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.new-account-button {
+    background-color: #5243C0;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.new-account-button:hover {
+    cursor: pointer;
+}
+
+.arrow-up {
+    margin-right: 10px;
+}
+
+.card-section {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(244, 244, 244);
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+
+.tick {
+    margin-bottom: 30px;
+}
+
+.card-name {
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.date {
+    font-size: 15px;
+    color: #9896a5;
+}
+
+.design-button {
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.dmm {
+    background-color: #FED7DA;
+}
+
+.blurr {
+    background-color: #FD6534;
+}
+
+.illustration {
+    background-color: #9ED095;
+}
+
+.refunds {
+    background-color: #FFE4A0;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px #9896a5, -3px -3px 10px #9896a5;
+    background-color: white;
+    cursor: pointer;
+    background-position: 14px 14px;
+}
+
+.card:hover .hover_img {
+    display: inline;
+}
+
+.image-section {
+    width: 60%;
+}
+
+.landing-section-image {
+    width: 95%;
+}
+
+.img {
+    position: absolute;
+}
+
+.hover_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
